@@ -338,7 +338,7 @@ plot_scores(scores, type = "b", pch = 19,
             xlab = "Position", ylab = "Score", main = "Student Scores")
 
 # Prediction/explanation: plot_scores(scores, ...) plots score values on
-# the y-axis against their position (1 through 8) on the x-axis. The "..."
+# the y-axis against their position on the x-axis. The "..."
 # lets any additional plotting arguments (type, pch, xlab, ylab, main,
 # etc.) pass straight through to the underlying plot() call, so the caller
 # can customize the appearance without plot_scores() needing to know about
